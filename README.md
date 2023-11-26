@@ -1,5 +1,5 @@
 # Big-Data-Analysis-of-Ethereum
-An analysis of the Ethereum blockchain platform
+An analysis of the Ethereum blockchain platform using big data tools like Apache PySpark.
 
 ## Introduction
 The Ethereum dataset consists of 4 files, transactions.csv, blocks.csv, contracts.csv, and scams.csv from 2017 to 2019. The transactions.csv file contains a list of all Ethereum transactions, the blocks.csv file contains information about how a block is mined on the Ethereum network, the contracts.csv file contains information on the smart contracts that run on the Ethereum network, and the scams.csv contains a list of notable scams on the Ethereum network. Each file was stored in an Amazon S3 bucket and Apache PySpark was used to extract the files for analysis.
